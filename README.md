@@ -1,6 +1,6 @@
 # BBT QR Manager
 
-Production-style monorepo: **FastAPI** (PostgreSQL, SQLAlchemy, Alembic, JWT) and **Next.js** (TypeScript, Tailwind, shadcn/ui, React Hook Form, Zod, Axios). QR images encode a **stable redirect URL** (`/r/{short_code}`). Changing the row in the database updates the final destination without regenerating the QR.
+Production-style monorepo: **FastAPI** (PostgreSQL, SQLAlchemy, Alembic, JWT) and **Next.js** (TypeScript, Tailwind, shadcn/ui, React Hook Form, Zod, Axios). QR images encode a **stable redirect URL** (`/r/{short_code}`). Changing the row in the database updates the final destination without regenerating the QR itself.
 
 ## Submission checklist (assessment brief)
 
